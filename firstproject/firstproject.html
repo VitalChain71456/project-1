@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <ul>
+            <li><a href="#About">Men haqimda</a></li>
+            <li><a href="#tajriba">Tajriba</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </header>
+
+    <main>
+
+    <section id="About">
+        <h2>Men haqimda</h2>
+        <p>Salom! Mening to'liq ismim Sharof Umarov, men boshlovchi dasturchiman va men dasturlashning gamedev yo'nalishiga juda qiziqaman. Ushbu portfolio HTML orqali yaratilgan</p>
+
+        <figure>
+            <picture>
+                <source media="(max-width: 600px)" srcset="img/min.jpg">
+                <source media="(min-width: 601px)" srcset="img/max.jpg">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.IZOw3R8W9w7zfbNjLywDtQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="default-img">
+        </picture>
+        <figcaption>Mening rasmim</figcaption>
+        </figure>
+
+        <aside>
+            <h2>Ko'nikmalar</h2>
+            <table>
+                <caption>Texnik ko'nikmalar</caption>
+                <thead>
+                    <tr>
+                        <th>Texnologiya</th>
+                        <th>Daraja</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>O'rta</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>boshlovchi</td>
+                    </tr>
+                    <tr>
+                        <td>JS</td>
+                        <td>junior</td>
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td>umuman yoq</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </aside>
+    </section>
+
+    <section id="tajriba">
+        <aside>
+            <h2>Tajriba</h2>
+
+            <ol>
+                <li>
+                    2020-2022: Veb-dasturchi, XYZ kompaniyasi <br>
+                    - Veb-saytlarni HTML/CSS va JavaScript yordamida yaratdim.
+                </li>
+                <li>
+                    2018-2020: Dizayner, ABC studiyasi <br>
+                    - Grafik dizayn va veb dizayn loyihalari ustida ishladim.
+                </li>
+            </ol>
+        </aside>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <article>
+            <h3>Project 1: Veb sayt Dizayni</h3>
+            <figure>
+                <img src="img/scr.png" alt="loyihadan sreentshot">
+            </figure>
+            <figcaption>Proyekt 1: Responsive veb dizayn</figcaption>
+        </article>
+        <article>
+            <h3>Project 2: grafik dizayn</h3>
+            <figure>
+                <img src="https://tse4.mm.bing.net/th/id/OIP.MNi9Gm-HZ1ciI3J_BnLsTgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="dizayn screenshot">
+            </figure>
+            <figcaption>Proyekt 2: Grafika galereyasi</figcaption>
+        </article>
+    </section>
+    <section id="multimedia">
+        <h2>Multimedia</h2>
+            <figure>
+                <video width="360" height="240" controls>
+                    <source src="videos/coordinateni_yomon_ko'raman.mp4" type="video/mp4">
+                   sizning browseringiz ushbu formatdagi videoni ocha olmaydi
+                </video>
+                <figcaption>Ushbu video lorem haqida</figcaption>
+            </figure>
+            <figure>
+                <audio controls>
+                    <source src="audios/cWmqScDqoEQ.mp3" type="audio/mpeg">
+                    sizning browseringiz ushbu formatdagi audioni ocha olmaydi
+                </audio>
+                <figcaption>Ushbu audio lorem haqida</figcaption>
+            </figure>
+    </section>
+    <section id="contact">
+        <h2>Aloqa</h2>
+        <form action="#">
+            <fieldset>
+                <legend>Kontakt ma'lumotlari</legend>
+                    <label for="ism">Ism:</label>
+                    <input type="text" id="ism"><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email"><br>
+
+                    <label for="xabar">Xabar:</label>
+                    <textarea name="xabar" id="xabar" rows="4">Salom, men geyman</textarea><br>
+
+                    <label for="mavzu">Mavzu:</label>
+                    <select name="mavzu" id="mavzu">
+                        <optgroup label="ish tajribasi">
+                            <option value="project">loyiha</option>
+                            <option value="feedback">Fikr</option>
+                        </optgroup>
+                        <optgroup label="umumiy">
+                            <option value="umumiy">umumiy</option>
+                            <option value="Boshqa">Boshqa</option>
+                        </optgroup>
+                    </select><br>
+                    <input type="submit" value="Yuborish">
+            </fieldset>
+        </form>
+    </section>
+    </main>
+
+    <footer>
+        <small>© 2025 <span>Umarov Sharof.</span>Barcha huquqlar himoyalangan</small>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1180.225064221455!2d67.27803355301968!3d37.231796590647654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1763747938958!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+</html>
